@@ -7,6 +7,7 @@ var enemyNames = ['Roborto', 'Amy Android', 'Robo Trumble'];
 var enemyHealth = 50;
 var enemyAttack = 12;
 
+
 console.log(enemyNames);
 console.log(enemyNames.length);
 console.log(enemyNames[0]);
