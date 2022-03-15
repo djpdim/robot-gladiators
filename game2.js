@@ -69,21 +69,6 @@ var fight = function(enemy) {
   }
 };
 
-// function to set name
-var getPlayerName = function() {
-  var name = "";
-
-// ***************************************
-
-while (name === "" || name === null) {
-  name = prompt("What is your robot's name?");
-}
-// ***************************************
-
-  console.log("Your robot's name is " + name);
-  return name;
-};
-
 // function to start a new game
 var startGame = function() {
   // reset player stats
@@ -186,7 +171,7 @@ var shop = function() {
 
 // player information
 var playerInfo = {
-  name: getPlayerName(),
+  name: window.prompt("What is your robot's name?"),
   health: 100,
   attack: 10,
   money: 10,
